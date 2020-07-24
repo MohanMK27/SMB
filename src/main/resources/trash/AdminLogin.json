@@ -1,0 +1,10 @@
+[
+{
+"userObject":{
+"name_textbox":"By.id('admin_user_email')",
+"password_textbox":"By.id('admin_user_password')",
+"signin_button":"By.name('commit')"
+}
+
+}
+]

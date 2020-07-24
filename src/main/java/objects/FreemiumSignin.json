@@ -1,0 +1,31 @@
+[
+{
+"signin":{
+"email_textbox":"By.id('agent_email')",
+"password_textbox":"By.id('agent_password')",
+"remember_me":"By.id('agent_remember_me')",
+"signin_button":"By.name('commit')",
+"ForgetPassword":"By.xpath('//a[text()='Forgot your password?']')",
+"signup_btn":"By.xpath('//a[text()='Sign up for Rently']')",
+"already_signin":"By.xpath('//a[text()='Sign In']')",
+"signout_text":"By.xpath('//span[text()='Signed out successfully.']')",
+"invalid":"By.xpath('//span[text()='Invalid email or password.']')",
+"invalidCredentials":"By.xpath('//span[text()='Invalid login credentials.']')",
+"signin_success":"By.xpath('//a[text()=' Properties']')"
+},
+"newSignIn": {
+"emailInput":"By.id('email')",
+"passwordInput":"By.id('password')",
+"eye":"By.xpath('//input[@id='password']//parent::div//following-sibling::div//button')",
+"signInBtn":"By.xpath('//input[@id='password']//parent::div//parent::div//following-sibling::button//span[text()='Sign In']')",
+"rememberMe":"By.xpath('//span[text()='Remember me']//parent::label//input')",
+"forgotPassword":"By.xpath('//u[text()='Forgot Password?']')",
+"startForFree":"By.xpath('//u[text()='Start for Free']')",
+"emptyMail":"By.xpath('//p[text()='Please enter email']')",
+"emptyPassword":"By.xpath('//p[text()='Please enter password']')",
+"invalidSigninSnackbarText":"By.xpath('//span[@id='client-snackbar']')",
+"invalidSigninSnackbarCLose":"By.xpath('//button[@aria-label='Close']')",
+"signin_success":"By.xpath('//*[text()='On-Market Properties']')"
+}
+}
+]

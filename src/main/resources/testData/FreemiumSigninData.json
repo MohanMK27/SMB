@@ -1,0 +1,40 @@
+[{
+        "signin1": {
+        "email":"mohankumar.t@rently.com",
+		"password":""
+	 	},
+	 	
+	 	"signin2": {
+        "email":"mohankumar.t@rently.com",
+		"password":"1234"
+	 	},	
+	 		
+	 	"signin3": {
+        "email":"tester260@rently.com",
+		"password":"123456"
+	 	},		
+	 	
+		"signup": {
+		"companyname":"Black Ninja homes12",
+		"fullname":"tester11",
+		"phone":"9298762812",
+        "email":"tester30@rently.com",
+		"password":"12345",
+		"cnfpassword":"12345"
+ 	 	 },
+ 	 	 
+		"properties": {
+		"propertyType":"House",
+		"address":"12816 Shoemaker Ave, Santa Fe Springs, CA 90670, USA",
+		"price":"1200",
+		"bed":"3",
+		"bath":"2"	
+		},
+		"agent":{
+		"agentName":"Tester sample",
+		"agentEmail":"testersamp@mail.com",
+		"agentMobile":"3298833883",
+		"agentRole":"Leasing Agent"
+		}	
+}
+]

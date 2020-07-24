@@ -1,0 +1,33 @@
+[
+{
+"oldSignup":{
+"companyname":"By.xpath('//*[@id='agent_company_name']')",
+"fullname":"By.xpath('//*[@id='agent_fullname']')",
+"phone":"By.xpath('//*[@id='agent_voice_phone']')",
+"email":"By.xpath('//*[@id='agent_email']')",
+"password":"By.xpath('//*[@id='agent_password']')",
+"cnfpassword":"By.xpath('//*[@id='agent_password_confirmation']')",
+"signupBtn":"By.xpath('//*[@value='Sign up']')"
+},
+"signup":{
+"companyname":"By.xpath('//*[@id='name']')",
+"phone":"By.xpath('//*[@id='phoneNumber']')",
+"email":"By.xpath('//*[@id='email']')",
+"startForFree":"By.xpath('//button//span[text()='Start for free']')",
+"password":"By.xpath('//*[@id='password']')",
+"launchNowBtn":"By.xpath('//button//span[text()='Launch Now']')",
+"downSignInBtn":"By.xpath('//div[text()='If you have Rently Manager account.']//u[text()='Sign In']')",
+"upSignInBtn":"By.xpath('//div[text()='Already using Rently Manager?  ']//u[text()='Sign In']')",
+"emptyMail":"By.xpath('//p[text()='Please enter email']')",
+"invalidMail":"By.xpath('//p[text()='Please enter valid email']')",
+"eye":"By.xpath('//input[@id='password']//following-sibling::div//button')",
+"emptyCompanyName":"By.xpath('//p[text()='Please enter company name']')",
+"emptyPhone":"By.xpath('//p[text()='Please enter phone number']')",
+"invalidPhone":"By.xpath('//p[text()='Please enter valid phone number']')",
+"emptyPassword":"By.xpath('//p[text()='Please enter password']')",
+"invalidPassword":"By.xpath('//p[text()='6 characters minimum for password']')"
+},
+
+
+}
+]

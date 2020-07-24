@@ -1,0 +1,84 @@
+[{
+"NavBar":{
+"scheduler":"By.xpath('//a[text()='Agent Showing']')",
+"appointment":"By.xpath('//a[text()='Appointments']')",
+"availability":"By.xpath('//a[text()='Availability']')",
+"settings":"By.xpath('//a[text()='Agent Showing']/following-sibling::ul//a[text()='Settings']')",
+"settingsCheck":"By.xpath('//*[text()='Agent Showing Settings']')",
+},
+"appointment":{
+"pending":"By.xpath('//button//span[text()='Pending']')",
+"upcoming":"By.xpath('//button//span[text()='Upcoming']')",
+"history":"By.xpath('//button//span[text()='History']')",
+"upcomingCheck":"By.xpath('//button[@class='MuiButtonBase-root MuiTab-root jss27 MuiTab-textColorInherit Mui-selected jss28']//span[text()='Upcoming']')",
+"pendingCheck":"By.xpath('//button[@class='MuiButtonBase-root MuiTab-root jss27 MuiTab-textColorInherit Mui-selected jss28']//span[text()='Pending']')",
+"historyCheck":"By.xpath('//button[@class='MuiButtonBase-root MuiTab-root jss27 MuiTab-textColorInherit Mui-selected jss28']//span[text()='History']')"
+},
+"pending":{
+"compatibleCheck":"By.xpath('//div[text()='Compatible']')",
+"SelectApmt":"By.xpath('//div[text()='zzz']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span')",
+"PdClaim":"By.xpath('//div[text()='zzz']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span[text()='zzz']/ancestor::div[2]/following-sibling::div[1]//div[text()='zzz']//span[text()='zzz']/ancestor::div[3]/following-sibling::div[@class='ShowingsTable_dataCell__1JLLS ShowingsTable_actionsCell__3_Ma0']//button[text()='Claim']')"
+},
+"upcoming":{
+"selectApmt":"By.xpath('//div[text()='zzz']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span[text()='zzz']/ancestor::div[2]/following-sibling::div[1]//div[text()='zzz']//span[text()='zzz']')",
+"rescheduleClick":"By.xpath('//div[text()='zzz']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span[text()='zzz']/ancestor::div[2]/following-sibling::div[1]//div[text()='zzz']//span[text()='zzz']/ancestor::div[3]/following-sibling::div[@class='ShowingsTable_dataCell__1JLLS ShowingsTable_actionsCell__3_Ma0']//button[text()='Reschedule']')",
+"cancelApmt":"By.xpath('//div[text()='zzz']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span[text()='zzz']/ancestor::div[2]/following-sibling::div[1]//div[text()='zzz']//span[text()='zzz']/ancestor::div[3]/following-sibling::div[@class='ShowingsTable_dataCell__1JLLS ShowingsTable_actionsCell__3_Ma0']//button[text()='Cancel']')",
+"checkUpcoming":"By.xpath('//div[text()='Actions']')"
+},
+"reschedule":{
+"promptRenter":"By.xpath('//span[text()='Prompt renter to reschedule']')",
+"manualReschedule":"By.xpath('//span[text()='Manually reschedule']')",
+"promptRenterCheck":"By.xpath('//span[text()='Prompt renter to reschedule']/preceding-sibling::span//input')",
+"manualRescheduleCheck":"By.xpath('//span[text()='Manually reschedule']/preceding-sibling::span//input')",
+"textmessage":"By.xpath('//span[text()='Text Message']')",
+"email":"By.xpath('//span[text()='Email']')",
+"textmessageCheck":"By.xpath('//span[text()='Text Message']/preceding-sibling::span//input')",
+"emailCheck":"By.xpath('//span[text()='Email']/preceding-sibling::span//input')",
+"rescheduleBtn":"By.xpath('//button//span[text()='Reschedule']')",
+"errorMsg":"By.xpath('//p[text()='Please choose at least one method to ask renter to reschedule']')",
+"date":"By.xpath('//label[text()='Date']/ancestor::div[@class='MuiFormControl-root']//div[text()]')",
+"dateCheck":"By.xpath('//label[text()='Date']')",
+"time":"By.xpath('//label[text()='Time']/ancestor::div[@class='MuiFormControl-root']//div[text()]')",
+"timeCheck":"By.xpath('//label[text()='Time']')",
+"liList":"By.xpath('//div[@id='menu-']//li')",
+"ulList":"By.xpath('//div[@id='menu-']//ul')"
+},
+"settings":{
+"settingPage":"By.xpath('//*[text()='Agent Showing Settings']')",
+"confirmationTime":"By.id('select-confirmationDuration')",
+"liConfirmationTime":"By.xpath('//div[@id='menu-confirmationDuration']//ul//li')",
+"cancelDuration":"By.id('select-autoCancelDuration')",
+"liCancelDuration":"By.xpath('//div[@id='menu-autoCancelDuration']//ul//li')",
+"maxDays":"By.id('select-scheduleMaxDays')",
+"liMaxDays":"By.xpath('//div[@id='menu-scheduleMaxDays']//li')",
+"showingDuration":"By.id('select-showingDuration')",
+"liShowingDuration":"By.xpath('//div[@id='menu-showingDuration']//li')",
+"bufferTime":"By.id('select-bufferTime')",
+"liBufferTime":"By.xpath('//div[@id='menu-bufferTime']//li')",
+"saveBtn":"By.xpath('//button//span[text()='Save']')",
+"savedPopup":"By.xpath('//span[text()='Your settings have been saved']')"
+},
+"renter":{
+"signin":"By.xpath('//span[text()=' Sign in / Sign Up']')",
+"renterSignInCheck":"By.xpath('//span[@id='abvheader-fullname']')",
+"phoneno":"By.xpath('//input[@placeholder='Your phone number']')",
+"submit":"By.xpath('//span[text()='Submit']')",
+"password":"By.xpath('//input[@placeholder='Password']')",
+"signinBtn":"By.xpath('//button//span[text()='Sign in']')",
+"checkHomeID":"By.xpath('//span[text()='#']')",
+"scheduleShowing":"By.xpath('//*[text()='SCHEDULE AGENT SHOWING']')",
+"selectDate":"By.xpath('//p[text()='CHOICE ']/following::div[text()='Select a Date']')",
+"selectTime":"By.xpath('//p[text()='CHOICE ']/following::div[text()='Select a Time']')",
+"scheduleBtn":"By.xpath('//button//span[text()='SCHEDULE SHOWING']')",
+"schedulePopupCheck":"By.xpath('//p[text()='CHOICE ']')",
+"checkScheduleAvail":"By.xpath('//*[text()=' No time are currently available for this property!']')",
+"DateTimeSelect":"By.xpath('//div[@role='presentation']//ul//li[2]')"
+
+
+}
+}
+]
+
+
+
+

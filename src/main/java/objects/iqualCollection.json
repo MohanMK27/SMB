@@ -1,0 +1,26 @@
+[
+{
+"iqualFlow": {
+"startBtn":"By.xpath('//button//span[text()='Start']')",
+"dogInput":"By.xpath('//div[text()='LARGEST DOG BREED ACCEPTED']//parent::div//preceding-sibling::div//div//div[1]//div//div[1]//div[1]')",
+"catInput":"By.xpath('//div[text()='LARGEST DOG BREED ACCEPTED']//parent::div//preceding-sibling::div//div//div[2]//div//div[1]//div[1]')",
+"dogBreedSize":"By.xpath('//div[text()='LARGEST DOG BREED ACCEPTED']//following-sibling::div//div//div[@role='button']')",
+"nextBtn":"By.xpath('//button//span[text()='Next']')",
+"DropdowntList":"By.xpath('//ul//li')",
+"monthlyRent":"By.xpath('//div[text()='MONTHLY RENT']//following-sibling::div//div//div[@role='button']')",
+"bankruptcy":"By.xpath('//span[text()='in bankruptcy']')",
+"landlord":"By.xpath('//span[text()='with landlord debts']')",
+"evictions":"By.xpath('//span[text()='with past evictions']')",
+"conditionalCreditScore":"By.xpath('//div[text()='conditionally ']//following-sibling::div[2]//div//div//input')",
+"conditionalSlider":"By.xpath('//div[text()='conditionally ']//following-sibling::div[2]//span[@role='slider']')",
+"typicalyCreditScore":"By.xpath('//div[contains(text(),'typically')]//following-sibling::div[2]//div//div//input')",
+"typicallySlider":"By.xpath('//div[contains(text(),'typically')]//following-sibling::div[2]//span[@role='slider']')",
+"doneBtn":"By.xpath('//span[text()='Done']')",
+"readUs":"By.xpath('//a[text()='Read us on the News']')",
+"gotIt":"By.xpath('//span[text()='Got it']')",
+"checkingIqualCmpltd":"By.xpath('//*[text()='You can adjust your Rental']')",
+"welcomePage":"By.xpath('//button//span[contains(text(),'Add')]')",
+"creditscoreSnackbar":"By.xpath('//span[contains(text(),'The conditionally')]')"
+}
+}
+]

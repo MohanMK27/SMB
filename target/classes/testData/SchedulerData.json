@@ -1,0 +1,43 @@
+[{
+        "propertyDetail": {
+        	"lead":"abc def",
+		"address":"787, Milk street, Houston, TX, 789898",
+		"time":"12:00PM",
+		"date":"8/17/2019"
+ 	  },
+	"rescheduleProperty": {
+		"date":"Sat, Aug 17th",
+		"time":"12:00pm - 12:30pm"
+
+	  },
+	"settings": {
+		"confirmationTime":"60 min",
+		"cancelDuration":"30 min",
+		"maxDays":"7 days",
+		"showingDuration":"60 min",
+		"bufferTime":"25 hours"
+	},
+	"renterr": {
+		"phoneno":"8072603458",
+		"url":"https://homes.rentlytestetl.com",
+		"password":"Mohan@27",
+		"homeurl":"https://homes.rentlytestetl.com/homes-for-rent/properties/zzz?source=marketing",
+		"homeID":"128963"
+		
+	},
+	"renter": {
+		"phoneno":"8072603458",
+		"password":"12345",
+		"url":"https://homes.rentlyblack.com",
+		"homeurl":"https://homes.rentlyblack.com/homes-for-rent/properties/zzz?source=marketing",
+		"homeID":"128929",
+		"date":"Wednesday, September 25, 2019",
+		"time":" 9:45 AM"
+		
+	}
+
+	
+	
+
+	
+}]

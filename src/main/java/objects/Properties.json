@@ -1,0 +1,43 @@
+[
+	{
+		"add_property": {
+			"onMarket_button": "By.xpath('//ul//li//*[text()='On market']')",
+			"offMarket_button": "By.xpath('//ul//li//*[text()='Off market']')",
+			"addProperty_button": "By.xpath('//div[text()='On-Market Properties']//parent::div//following-sibling::div//button//*[text()='Add new property']')",
+			"marketingStatus": "By.xpath('//div//span[text()='Marketing Status']/following::span')",
+			"property_type": "By.xpath('//*[text()='Select Property Type']')",
+			"property_type_list": "By.xpath('//ul[@role='listbox']//li')",
+			"streetAddress": "By.xpath('//*[@name='address']')",
+			"Price": "By.xpath('//input[@id='price']')",
+			"deposit": "By.xpath('//input[@id='deposit']')",
+			"sameAsPrice": "By.xpath('//input[@name='sameAsPrice']')",
+			"bed": "By.xpath('//input[@id='bed']')",
+			"bath": "By.xpath('//div[@id='mui-component-select-bath']')",
+			"sqft": "By.xpath('//input[@id='sqft']')",
+			"description": "By.xpath('//textarea[@name='description']')",
+			"cats_click": "By.xpath('//label[text()='CATS']//following-sibling::div//*[text()='Is not allowed']')",
+			"cats": "By.xpath('//ul[@role='listbox']//li')",
+			"dogs_click": "By.xpath('//label[text()='DOGS']//following-sibling::div//*[text()='Is not allowed']')",
+			"dogs": "By.xpath('//ul[@role='listbox']//li')",
+			"breedsize_click": "By.xpath('//label[text()='DOG BREED SIZE']//following-sibling::div//*[text()='Apply company settings']')",
+			"breedsize": "By.xpath('//ul[@role='listbox']//li')",
+			"videolink": "By.xpath('//input[@id='videolink']')",
+			"saveBtn": "By.xpath('//button//span[text()='Save']')",
+			"cancelBtn": "By.xpath('//button//span[text()='Cancel']')"
+		},
+		"toolbar": {
+			"noSearchResult": "By.xpath('//div[text()='No properties found to match your search.']')",
+			"searchBar": "By.xpath('//input[@placeholder='Enter address or device number']')",
+			"searchBarCloseIcon": "By.xpath('//input[@placeholder='Enter address or device number']//following-sibling::button')",
+			"clearAll": "By.xpath('//div[text()='CLEAR ALL']')",
+			"AvailabilityStatus": "By.xpath('//div[text()='CLEAR ALL']/preceding-sibling::div[1]')"
+		},
+		"SelectProperty": {
+			"selectByAddress": "By.xpath('//div[text()='zzz']')",
+			"moreIcon": "By.xpath('//div[@class='OnMarketPropertiesSidebar_showMoreAndCloseButton__2wQl4']//div[@role='button']//button')",
+			"editIcon": "By.xpath('//div[@class='OnMarketPropertiesSidebar_editAndCloseButton__7nEOw']//div[1]//button')",
+			"selectFirstOFFProperty": "By.xpath('//*[@id='root']/div/div[2]/div/div[2]/div[1]/div/div[2]/div/div/div/div[1]/div[1]/div[2]')",
+			"SelectFirstOnProperty":"By.xpath('//*[@id=1root1]/div/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div[1]/div[1]')"
+		}
+	}
+]

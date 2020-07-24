@@ -1,0 +1,29 @@
+[
+{
+"agents":{
+"agentsTab":"By.xpath('//*[text()='Company']//following::ul//div[text()='Agents']')",
+"addAgent":"By.xpath('//*[text()='Add Agent']')",
+"agentName":"By.xpath('//*[@name='agentName']')",
+"agentEmail":"By.xpath('//*[@name='agentEmail']')",
+"agentMobile":"By.xpath('//*[@name='agentMobile']')",
+"agentRole":"By.xpath('//*[@name='agentsRole']//preceding-sibling::div[@role='button']')",
+"agentRoleLi":"By.xpath('//ul[@role='listbox']//li')",
+"saveBtn":"By.xpath('//*[text()='Save']')",
+"cancelBtn":"By.xpath('//*[text()='Cancel']')",
+"agentSelect":"By.xpath('//*[@id='root']/div/div[2]/div/div[2]/div[1]/div[2]/div[1]/div/div[2]/div[1]')",
+"editIcon":"By.xpath('//div[@class='AgentsSidebar_nameAndEdit__2O6v_']//button')",
+"deleteBtn":"By.xpath('//*[text()='Delete Agent']')",
+"confirmDeleteBtn":"By.xpath('//*[text()='Confirm deletion']')"
+},
+"toolbar":
+{
+"searchBar":"By.xpath('//input[@placeholder='Search agents by name or email']')",
+"clearAll":"By.xpath('//*[text()='CLEAR ALL']')",
+"agentRoleFltr":"By.xpath('//*[text()='Agents role']')",
+"adminFilter":"By.xpath('//li//*[text()='Admin']')",
+"leasingFilter":"By.xpath('//li//*[text()='Leasing Agent']')"
+}
+
+
+}
+]

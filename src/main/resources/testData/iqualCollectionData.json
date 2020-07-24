@@ -1,0 +1,38 @@
+[{
+        "petsCount": {
+        "zero":"0",
+        "one":"1",
+		"two":"2",
+		"three":"3",
+		"four":"4",
+		"five":"5",
+		"six":"6",
+		"seven":"7"
+	 	},
+	 	"breedSize": {
+	 	"xs":"XS (1-10 lbs)",
+	 	"s":"S (11-25 lbs)",
+	 	"m":"M (26-40 lbs)",
+	 	"l":"L (41-65 lbs)",
+	 	"xl":"XL (65-90 lbs)",
+	 	"xxl":"XXL (91-110 lbs)"
+	 	},
+	 	"monthlyRent": {
+        "1.0X":"1.0X",
+        "1.5X":"1.5X",
+        "2.0X":"2.0X",
+        "2.5X":"2.5X",
+        "3.0X":"3.0X",
+        "3.5X":"3.5X",
+        "4.0X":"4.0X",
+        "4.5X":"4.5X",
+        "5.0X":"5.0X"
+		},
+		"creditScore": {
+		"invalidConditionally":"20",
+		"invalidTypically":"1000",
+		"conditionally":"550",
+		"typically":"800"
+		} 
+}
+]

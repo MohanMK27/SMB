@@ -1,0 +1,31 @@
+[
+	{
+		"featureFakePage": {
+			"propertyGroup": "By.xpath('//ul//li//*[text()='Property Groups']')",
+			"leads": "By.xpath('//ul//li//*[text()='Leads']')",
+			"applicants": "By.xpath('//ul//li//*[text()='Applicants']')",
+			"device": "By.xpath('//ul//li//*[text()='Device']')",
+			"selfShowingSettings": "By.xpath('//div[text()='Self Showing']//following::ul//li//*[text()='Settings']')",
+			"vendors": "By.xpath('//ul//li//*[text()='Vendors']')",
+			"scheduleDemo": "By.xpath('//button[text()='Schedule a Demo']')",
+			"learnMore":"By.xpath('//*[text()='Learn More']')",
+			"contactUs":"By.xpath('//*[text()='Contact Us']')"
+			
+		},
+		"contactUs": {
+			"companyName": "By.xpath('//input[@name='companyName']')",
+			"userName": "By.xpath('//input[@name='userName']')",
+			"email": "By.xpath('//input[@name='email']')",
+			"phoneNumber": "By.xpath('//input[@name='phoneNumber']')",
+			"companyNameReq": "By.xpath('//*[text()='Company Name is Required']')",
+			"userNameReq": "By.xpath('//*[text()='User Name is Required']')",
+			"emailReq": "By.xpath('//*[text()='Email is Required']')",
+			"emailInvalid": "By.xpath('//*[text()='Invalid Email Address']')",
+			"phoneInvalid": "By.xpath('//*[text()='Invalid Phone Number']')",
+			"phoneReq": "By.xpath('//*[text()='Phone Number is Required']')",
+			"send": "By.xpath('//button//span[text()='Send']')",
+			"close":"By.xpath('//span[text()='Contact Us']//following-sibling::button')",
+			"contactUsName":"By.xpath('//*[text()='Contact Us']')"
+		}
+	}
+]

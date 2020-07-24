@@ -1,0 +1,9 @@
+[
+	{
+		"Signout": {
+			"signoutDropdown": "By.xpath('//*[text()='▼']')",
+			"signout": "By.xpath('//*[text()='Sign Out']')",
+			"signoutMsg": "By.xpath('//*[text()='Signed out successfully.']')"
+		}
+	}
+]

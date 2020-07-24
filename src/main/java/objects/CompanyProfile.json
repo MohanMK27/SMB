@@ -1,0 +1,25 @@
+[
+{
+"CompanyProfile":{
+"companyTab":"By.xpath('//*[text()='Company Profile']')",
+"CompanyName":"By.xpath('//*[@name='companyName']')",
+"CompanyMail":"By.xpath('//*[@name='companyEmail']')",
+"CompanyPhone":"By.xpath('//*[@name='companyPhoneNumber']')",
+"Timezone":"By.xpath('//label[text()='TIME ZONE']//following::div[@role='button']')",
+"Inquires":"By.xpath('//*[@name='notificationRenterInquires']')",
+"Survey":"By.xpath('//*[@name='notificationRenterSurvey']')",
+"saveBtn":"By.xpath('//*[text()='Save']')",
+"mailEmpty":"By.xpath('//*[text()='Email Id is Required']')",
+"invalidMail":"By.xpath('//*[text()='Invalid Email Id']')",
+"phoneEmpty":"By.xpath('//*[text()='Phone Number is Required']')",
+"invalidPhone":"By.xpath('//*[text()='Invalid Phone Number']')",
+"nameEmpty":"By.xpath('//*[text()='Company Name is Required']')",
+"logoBox":"By.xpath('//*[@class='logo-form']')",
+"editLogo":"By.xpath('//*[@class='logo-form']//*[@class='svg-logo']')",
+"clickOutside":"By.xpath('//body[@class='  pace-done']')",
+"wrongSnackbar":"By.xpath('//*[text()='You have entered wrong details. Please Check your profile']')",
+"correctSnackbar":"By.xpath('//*[text()='Your company profile have been saved']')"
+}
+
+}
+]

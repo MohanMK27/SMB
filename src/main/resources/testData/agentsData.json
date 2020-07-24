@@ -1,0 +1,21 @@
+[
+{
+		"agents": {
+		"agentName":"Ninja user",
+		"agentEmail":"ninjauser@rently.com",
+		"agentMobile":"0000000000",
+		"agentRole":"Admin"
+ 	 	 },
+ 	 	 	"editAgents": {
+		"agentName":"Ninja user",
+		"agentEmail":"ninjauser1@rently.com",
+		"agentMobile":"0000000002",
+		"agentRole":"Leasing Agent"
+ 	 	 },
+ 	 	 "toolbar": {
+ 	 	 "agentName":"mohan tes",
+ 	 	 "agentMail":"newagent@rently.com",
+ 	 	 
+ 	 	 }
+}
+]

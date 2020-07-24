@@ -1,0 +1,55 @@
+[{
+"signin":{
+"CheckPage":"By.xpath('//*[@id='new_agent']')",
+"email":"By.xpath('//*[@id='agent_email']')",
+"password":"By.xpath('//*[@id='agent_password']')",
+"signin":"By.xpath('//*[@value='Sign in']')",
+"rememberme":"By.xpath('//a[text()='Agent Showing']/following-sibling::ul//a[text()='Settings']')",
+"checkSignin":"By.xpath('//div//img[@alt='Rently']')"
+},
+"signup":{
+"companyname":"By.xpath('//*[@id='agent_company_name']')",
+"fullname":"By.xpath('//*[@id='agent_fullname']')",
+"phone":"By.xpath('//*[@id='agent_voice_phone']')",
+"email":"By.xpath('//*[@id='agent_email']')",
+"password":"By.xpath('//*[@id='agent_password']')",
+"cnfpassword":"By.xpath('//*[@id='agent_password_confirmation']')",
+"signupBtn":"By.xpath('//*[@value='Sign up']')"
+},
+"navbar":{
+"properties":"By.xpath('//a[text()=' Properties']')",
+"onMarket":"By.xpath('//a[text()='On market']')",
+"company":"By.xpath('//a[text()='Company']')",
+"agents":"By.xpath('//a[text()='Agents']')",
+},
+"properties":{
+"checkOnmarket":"By.xpath('//div[text()='On-Market Properties']')",
+"addProperties":"By.xpath('//div[@class='OnMarketPropertiesToolbar_container__2DMB6']//button//span[text()='Add new properties']')",
+"checkAddProperties":"By.xpath('//span[text()='Add New Properties']')",
+"selectPropertyType":"By.xpath('//div[text()='Select Property Type']')",
+"selectPropertyUL":"By.xpath('//ul[@role='listbox']//li')",
+"address":"By.xpath('//input[@id='address']')",
+"price":"By.xpath('//input[@id='price']')",
+"bed":"By.xpath('//input[@id='bed']')",
+"bath":"By.xpath('//input[@id='bath']')",
+"saveBtn":"By.xpath('//button//span[text()='Save']')",
+"availSetup":"By.xpath('//div[text()='Go to Agent Showing → Availability']')",
+"setupNow":"By.xpath('//button//span[text()='Set up Now']')",
+"later":"By.xpath('//button//span[text()='Later']')",
+},
+"agent":{
+"checkAgent":"By.xpath('//div[text()='Agents']')",
+"addAgentBtn":"By.xpath('//button//span[text()='Add Agent']')",
+"agentName":"By.xpath('//input[@name='agentName']')",
+"agentEmail":"By.xpath('//input[@name='agentEmail']')",
+"agentMobile":"By.xpath('//input[@name='agentMobile']')",
+"agentRole":"By.xpath('//div[@id='select-agentsRole']')",
+"agentRoleLi":"By.xpath('//div[@role='document']//li')",
+"SaveBtn":"By.xpath('//button//span[text()='Save']')",
+}
+}
+]
+
+
+
+

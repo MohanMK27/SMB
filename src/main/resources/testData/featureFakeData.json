@@ -1,0 +1,14 @@
+[
+	{
+		"contactUs": {
+			"companyName": "Ninja team",
+			"userName": "Mohankumar",
+			"email": "mohankumar.t@rently.com",
+			"invalidEmail":"mohankumar.",
+			"phoneNumber": "1111111111",
+			"invalidPhone":"98000",
+			"devicePageContent":"Tired of wasting valuable time and energy coordinating showings? Using Self-showing technology to further automate the showing.",
+			"learnMoreURL":"https://use.rently.com/manager/self-showing/"
+		}
+	}
+]

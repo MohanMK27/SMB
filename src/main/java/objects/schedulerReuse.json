@@ -1,0 +1,23 @@
+[{
+"NavBar":{
+"scheduler":"By.xpath('//a[text()='Scheduler']')",
+"appointment":"By.xpath('//a[text()='Appointments']')",
+"availability":"By.xpath('//a[text()='Availability']')",
+"settings":"By.xpath('//a[text()='Scheduler']/following-sibling::ul//a[text()='Settings']')"
+},
+"appointment":{
+"pending":"By.xpath('//span[text()='Pending']')",
+"upcoming":"By.xpath('//span[text()='upcoming']')",
+"history":"By.xpath('//span[text()='history']')"
+},
+"pending":{
+"compatibleCheck":"By.xpath('//div[text()='Compatible']')",
+"SelectApmt":"By.xpath('//div[text()='^']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span')",
+"PdClaim":"By.xpath('//div[text()='^']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS']/following-sibling::div[1]//span[text()='^']/ancestor::div[@class='ShowingsTable_dataCell__1JLLS ShowingsTable_propertyCell__3w39G']/following-sibling::div[3]//button')"
+}
+}
+]
+
+
+
+

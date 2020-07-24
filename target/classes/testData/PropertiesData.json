@@ -1,0 +1,38 @@
+[
+    {
+        "add_property": {
+        	"property_type":"House",
+            "streetAddress": "299 Fremont St, San Francisco, CA 94105, USA",
+            "price":"250",
+            "deposit":"500",
+            "bed":"4",
+            "bath":"3",
+            "sqft":"2500",
+            "description":"Come live with luxury, freshly remodeled home inside out with brand new cabinet, granite counter tops, stainless steel appliances, brand new bathroom, large living room, master bathroom with its own complete bath, big private yard both front and back, and 2 garage detached garage/shop. Conveniently located in walking distance to Baker Middle School, close to highways, parks and shopping centers.",
+            "cats":"3",
+            "dogs":"3",
+            "breedsize":"Medium (26 - 40 lbs)" 
+        },
+         "edit_property": {
+        	"property_type":"House",
+            "streetAddress": "222 Mason St, San Francisco, CA 94102, USA",
+            "price":"250",
+            "deposit":"500",
+            "bed":"4",
+            "bath":"3",
+            "sqft":"2500",
+            "description":"Come live with luxury, freshly remodeled home inside out with brand new cabinet, granite counter tops, stainless steel appliances, brand new bathroom, large living room, master bathroom with its own complete bath, big private yard both front and back, and 2 garage detached garage/shop. Conveniently located in walking distance to Baker Middle School, close to highways, parks and shopping centers.",
+            "cats":"3",
+            "dogs":"3",
+            "breedsize":"Medium (26 - 40 lbs)" 
+        },
+        "search": {
+        "searchContent":"293829839823",
+        "availabilityStatus":"Agent-showing"
+        },
+        "SelectProperty":
+        {
+        "address":"8834 Millergrove Dr, Santa Fe Springs, CA 90670, USA"
+        }
+    }
+]
