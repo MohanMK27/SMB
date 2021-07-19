@@ -1,0 +1,62 @@
+	[{
+			"tag": "data1",
+			"heading": "",
+			"address": "9283 Harrasssssn12367 ",
+			"rent": 1000,
+			"bedrooms": 4,
+			"bathrooms": 1,
+			"pets": "True",
+			"size": 146,
+			"images": [],
+			"lockbox": "",
+			"lockbox_instruction": "Front door or gas meter",
+			"prelease": false,
+			"active": false
+		},
+		{
+			"tag": "data2",
+			"heading": "",
+			"address": "9920 South La Cienega Boulevard, Inglewood, CA, USA ",
+			"rent": 1195,
+			"bedrooms": 3,
+			"bathrooms": 2,
+			"pets": "True",
+			"size": 1486,
+			"images": [],
+			"lockbox": "47258",
+			"lockbox_instruction": "Hub for test",
+			"prelease": false,
+			"active": true
+		},
+		{
+			"tag": "data3",
+			"heading": "",
+			"address": "8765 Harrison123 ",
+			"rent": 1195,
+			"bedrooms": 3,
+			"bathrooms": 2,
+			"pets": "True",
+			"size": 1486,
+			"images": [],
+			"lockbox": "125063",
+			"lockbox_instruction": "Front door or gas meter",
+			"prelease": false,
+			"active": true
+		},
+		{
+			"tag": "data4",
+			"heading": "",
+			"address": "3453 Harrison12367 ",
+			"rent": 1195,
+			"bedrooms": 3,
+			"bathrooms": 2,
+			"pets": "True",
+			"size": 1486,
+			"images": [],
+			"lockbox": "727773",
+			"lockbox_instruction": "Front door or gas meter",
+			"prelease": false,
+			"active": false
+		}
+
+	]
